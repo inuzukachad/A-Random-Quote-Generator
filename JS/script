@@ -14,17 +14,68 @@ project 1 - A Random Quote Generator
   Add the `year` property to at least one object in the array.
   Use console.log() to log your array of quotes to the console.
 ***/
-
-
-
-
+var quoteList = [
+  {
+  quote: 'What you do makes a difference, and you have to decide what kind of difference you want to make.',
+  source: 'Jane Goodall',
+  citation: ,
+  date: ,
+  tag: 'Growth'
+  };
+  {
+  quote: 'For me, I am driven by two main philosophies: know more today about the world than I knew yesterday and lessen the suffering 
+  of others. You'd be surprised how far that gets you.',
+  source: 'Alexandria Ocasio-Cortez',
+  citation: ,
+  date: ,
+  tag: 'perserverance'
+  };
+  {
+  quote: 'An artwork unable to make people feel uncomfortable or to feel different is not one worth creating. This is the difference 
+  between the artist and the fool.',
+  source: 'Ai Weiwei',
+  citation: ' Ai Weiwei's Blog: Writings, Interviews, and Digital Rants',
+  date: '2006-2009'
+  tag: 'freedom'
+  };
+  {
+  quote: 'Logic will get you from A to Z; imagination will get you everywhere.',
+  source: 'Albert Einstein',
+  citation: ,
+  tag: 'imagination'
+  };
+  {
+  quote: 'Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion 
+  galaxies, you will not find another.',
+  source: 'Carl Sagan',
+  citation: 'Cosmos: A Personal Voyage',
+  date: '1980',
+  tag: 'perspective'
+  };
+  {
+  quote: 'For me, I am driven by two main philosophies: know more today about the world than I knew yesterday and lessen the suffering 
+  of others. You'd be surprised how far that gets you.',
+  source: 'Neil deGrasse Tyson',
+  citation: ,
+  date: ,
+  tag: 'perspective'
+  };
+  {
+  quote: 'I am just a child who has never grown up. I still keep asking these 'how' and 'why' questions. Occasionally, I find an answer.',
+  source: 'Stephen Hawking'
+  citation: ,
+  date: ,
+  tag: 'motivation'
+  };
+]
 /***
   Create the `getRandomQuote` function to:
    - Create a variable to store a random number 
    - Cse the random number to `return` a random quote object from the `quotes` array.
 ***/
-
-
+function getRandom(){
+ return Math.random(); 
+}
 
 
 /***
